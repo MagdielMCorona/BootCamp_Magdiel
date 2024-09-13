@@ -1,13 +1,8 @@
 # Check the type of a string
-<<<<<<< HEAD
-default_string = "default string"
-print(default_string)
-=======
 default_string = b"default string"
 print(str(default_string))
 
 
->>>>>>> 5705a7dc37d499f79f44907cb6d86ca6471e90a7
 print(type(default_string))  # Output: <class 'str'>
 
 # Check the type of a string
@@ -23,14 +18,8 @@ is_unicode = isinstance(unicode_string, str)
 print("Is unicode_string of type str (Unicode)?:", is_unicode)  # Output: True
 
 # Compare with bytes
-<<<<<<< HEAD
-byte_string = b"default string"
-print(type(byte_string))  # Output: <class 'bytes'>
-print(byte_string)
-=======
 byte_string = b" default string 2 "
 print(byte_string)  # Output: <class 'bytes'>
->>>>>>> 5705a7dc37d499f79f44907cb6d86ca6471e90a7
 
 # Show the difference between str and bytes
 try:
