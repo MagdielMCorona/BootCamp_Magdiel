@@ -1,5 +1,6 @@
 # Check the type of a string
 default_string = "default string"
+print(default_string)
 print(type(default_string))  # Output: <class 'str'>
 
 # Check the type of a string
@@ -17,9 +18,12 @@ print("Is unicode_string of type str (Unicode)?:", is_unicode)  # Output: True
 # Compare with bytes
 byte_string = b"default string"
 print(type(byte_string))  # Output: <class 'bytes'>
+print(byte_string)
 
 # Show the difference between str and bytes
 try:
     combined_string = default_string + byte_string  # This should raise a TypeError
 except TypeError as e:
     print("TypeError when trying to combine str and bytes:", e)
+
+print(combined_string)

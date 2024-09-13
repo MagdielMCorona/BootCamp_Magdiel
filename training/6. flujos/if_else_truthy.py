@@ -69,7 +69,8 @@ else:
 # Demonstrating truthiness of non-boolean values:
 name = "Alice"
 if name:
-    print(f"👋 Hello, {name}!")
+    print(f"👋 Hello, {name}!") 
+    # Colocar una f antes del "string" hace que pueda colocar una variable o hacer una operación
 else:
     print("🔍 No name provided.")
 
@@ -96,3 +97,8 @@ if adult:
     print(f"{adult.name} is considered truthy.")
 else:
     print(f"{adult.name} is considered falsy.")
+
+print('Hola "amigo", espero que estes\n'
+      'de lujo') 
+#Con el uso de unas comillas diferentes se puede meter comillas en un texto
+
