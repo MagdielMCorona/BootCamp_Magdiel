@@ -64,7 +64,9 @@ print("Count of 'apple':", count)  # Outputs: 1
 
 # 9. sort(): Sorts the list in ascending order
 fruits.sort()
+print(f"La dirección de memoria de fruits primero es: {hex(id(fruits))}")
 print("After sort (ascending):", fruits)  # Outputs: ['apple', 'apricot', 'banana', 'cherry', 'date', 'elderberry', 'fig']
+print(f"La dirección de memoria de fruits después es: {hex(id(fruits))}")
 
 # Sorting in descending order
 fruits.sort(reverse=True)

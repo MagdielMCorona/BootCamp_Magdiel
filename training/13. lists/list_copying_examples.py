@@ -2,6 +2,7 @@ import copy
 
 # Original list with mutable inner lists
 original_list = [[1, 2, 3], [4, 5, 6]]
+print("Original list without modifications: ", original_list)
 
 # Method 1: Slicing for shallow copy
 shallow_copy_1 = original_list[:]
